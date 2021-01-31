@@ -6,4 +6,17 @@ import { Component } from "@angular/core";
     styleUrls: ['/app.component.css']
 
 })
-export class AppComponent{}
+export class AppComponent{
+    firstMediaItem = {
+        id: 1,
+        name: 'Fire Bug',
+        medium: 'Series',
+        category: 'Science Fiction',
+        year: 2010,
+        watchedOn: '10/12/2020',
+        isFavorite: false
+    }
+    onMediaItemDelete(mediaItem){
+
+    }
+}
